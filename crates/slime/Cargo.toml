@@ -16,4 +16,8 @@ workspace = true
 name = "slime"
 path = "src/main.rs"
 
+[[example]]
+name = "render-page"
+path = "../../examples/render-page.rs"
+
 [dependencies]
