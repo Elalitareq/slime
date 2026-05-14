@@ -15,7 +15,7 @@ Thanks for your interest in Slime. Contributions of any size are welcome.
 - Fork → branch → PR. Keep PRs focused; one logical change per PR.
 - Conventional Commits: `feat:`, `fix:`, `chore:`, `docs:`, `test:`, `refactor:`.
 - Write tests with TDD: failing test first, then implementation.
-- `cargo fmt`, `cargo clippy --workspace -- -D warnings`, and
+- `cargo fmt`, `cargo clippy --workspace --all-targets -- -D warnings`, and
   `cargo test --workspace` must pass before requesting review.
 
 ## Crate ownership

@@ -1,5 +1,7 @@
 # Slime
 
+<!-- CI and license badges will be added here after the first GitHub Actions run. See plan task 14. -->
+
 A web browser, written from scratch in Rust. Open source under [MPL-2.0](LICENSE).
 
 > **Status:** Pre-alpha. Phase A (static-web MVP) in progress. See [ROADMAP](docs/ROADMAP.md).

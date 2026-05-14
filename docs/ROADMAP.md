@@ -6,7 +6,7 @@ Mirrors the spec's milestone table. Update this when milestones land.
 
 | #   | Status    | Milestone                            |
 | --- | --------- | ------------------------------------ |
-| A0  | 🟡 active | Workspace + CI green                 |
+| A0  | ✅ done   | Workspace + CI green                 |
 | A1  | ⬜        | Window opens, blank canvas           |
 | A2  | ⬜        | Text renders                         |
 | A3  | ⬜        | HTML parser (subset)                 |
