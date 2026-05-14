@@ -7,3 +7,7 @@ Cargo.lock
 .vscode/
 *.iml
 /coverage
+
+# Local tooling
+.claude/
+.serena/
