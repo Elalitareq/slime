@@ -1,6 +1,7 @@
 //! slime-net
 //!
-//! Placeholder crate. Implementation to be filled in by future plans.
+//! URL parsing, HTTP/1.1, TLS (rustls).
+//! Placeholder crate; implementation lands in future plans.
 
 #[cfg(test)]
 mod tests {

@@ -1,6 +1,7 @@
 //! slime-css
 //!
-//! Placeholder crate. Implementation to be filled in by future plans.
+//! CSS parser, selector matching, and cascade.
+//! Placeholder crate; implementation lands in future plans.
 
 #[cfg(test)]
 mod tests {

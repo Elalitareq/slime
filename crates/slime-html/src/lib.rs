@@ -1,6 +1,7 @@
 //! slime-html
 //!
-//! Placeholder crate. Implementation to be filled in by future plans.
+//! HTML5 tokenizer and tree builder. Parses bytes into a DOM (`slime-dom`).
+//! Placeholder crate; implementation lands in future plans.
 
 #[cfg(test)]
 mod tests {

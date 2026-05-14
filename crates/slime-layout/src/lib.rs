@@ -1,6 +1,7 @@
 //! slime-layout
 //!
-//! Placeholder crate. Implementation to be filled in by future plans.
+//! Box tree construction and block + inline flow layout.
+//! Placeholder crate; implementation lands in future plans.
 
 #[cfg(test)]
 mod tests {

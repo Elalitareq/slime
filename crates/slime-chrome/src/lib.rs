@@ -1,6 +1,7 @@
 //! slime-chrome
 //!
-//! Placeholder crate. Implementation to be filled in by future plans.
+//! Window manager, tabs, URL bar (winit + softbuffer).
+//! Placeholder crate; implementation lands in future plans.
 
 #[cfg(test)]
 mod tests {
