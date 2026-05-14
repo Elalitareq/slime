@@ -1,0 +1,36 @@
+[workspace]
+resolver = "2"
+members = [
+    "crates/slime",
+    "crates/slime-chrome",
+    "crates/slime-engine",
+    "crates/slime-html",
+    "crates/slime-css",
+    "crates/slime-dom",
+    "crates/slime-layout",
+    "crates/slime-paint",
+    "crates/slime-net",
+]
+
+[workspace.package]
+version = "0.0.1"
+edition = "2021"
+rust-version = "1.75"
+license = "MPL-2.0"
+repository = "https://github.com/elalitareq/slime"
+homepage = "https://github.com/elalitareq/slime"
+authors = ["Slime contributors"]
+
+[workspace.lints.rust]
+unsafe_code = "forbid"
+
+[workspace.lints.clippy]
+pedantic = { level = "warn", priority = -1 }
+nursery = { level = "warn", priority = -1 }
+module_name_repetitions = "allow"
+missing_errors_doc = "allow"
+missing_panics_doc = "allow"
+
+[profile.release]
+lto = "thin"
+codegen-units = 1
