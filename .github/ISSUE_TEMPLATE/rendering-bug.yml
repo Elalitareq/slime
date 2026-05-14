@@ -1,0 +1,38 @@
+name: Rendering bug
+description: A page renders differently from a reference browser
+labels: [rendering-bug, needs-triage]
+body:
+  - type: input
+    id: url
+    attributes:
+      label: URL or fixture path
+      description: A URL or `tests/fixtures/...` path that reproduces the bug.
+    validations:
+      required: true
+  - type: textarea
+    id: slime-screenshot
+    attributes:
+      label: Slime's rendering
+      description: Drag in a screenshot or paste an image.
+    validations:
+      required: true
+  - type: textarea
+    id: reference-screenshot
+    attributes:
+      label: Reference rendering (Firefox or Chrome)
+      description: Drag in a screenshot of the same page in Firefox or Chrome.
+    validations:
+      required: true
+  - type: textarea
+    id: what-differs
+    attributes:
+      label: What looks wrong?
+    validations:
+      required: true
+  - type: dropdown
+    id: subsystem
+    attributes:
+      label: Suspected crate (best guess; we'll re-route if wrong)
+      options: [slime-html, slime-css, slime-dom, slime-layout, slime-paint, slime-engine, slime-net, slime-chrome, unsure]
+    validations:
+      required: true
