@@ -14,10 +14,10 @@
 
 ## Working directory
 
-All commands assume CWD = `/Users/elalitareq/Documents/projects/my_browser`. Engineer should `cd` there before starting.
+All commands assume CWD = `<repo root>`. Engineer should `cd` there before starting.
 
 ```bash
-cd /Users/elalitareq/Documents/projects/my_browser
+cd <repo root>
 ```
 
 ## File map
@@ -577,7 +577,7 @@ If curl fails, copy from <https://www.contributor-covenant.org/version/2/1/code_
 - [ ] **Step 3: Add contact email to CoC**
 
 Edit `CODE_OF_CONDUCT.md`. Find the placeholder line that contains
-`[INSERT CONTACT METHOD]` and replace it with `elalitareq@gmail.com`.
+`[INSERT CONTACT METHOD]` and replace it with a link to GitHub private security advisories.
 
 Run:
 ```bash
@@ -597,7 +597,7 @@ Slime is pre-1.0 and only the latest tagged release is supported.
 
 ## Reporting a vulnerability
 
-Email **elalitareq@gmail.com** with `[SLIME SECURITY]` in the subject line.
+Report it privately through GitHub's private vulnerability reporting.
 Please do not open public GitHub issues for security reports.
 
 We will:

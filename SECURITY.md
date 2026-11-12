@@ -6,7 +6,8 @@ Slime is pre-1.0 and only the latest tagged release is supported.
 
 ## Reporting a vulnerability
 
-Email **elalitareq@gmail.com** with `[SLIME SECURITY]` in the subject line.
+Report it privately through GitHub's
+[private vulnerability reporting](https://github.com/elalitareq/slime/security/advisories/new).
 Please do not open public GitHub issues for security reports.
 
 We will:
@@ -15,5 +16,5 @@ We will:
 2. Confirm or dispute the issue within 30 days.
 3. Coordinate a fix and disclosure timeline with you.
 
-If you do not get a response in 14 days, please escalate by opening a private
-discussion on GitHub Security Advisories.
+If you do not get a response in 14 days, please add a comment to your
+advisory to follow up.
